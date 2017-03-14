@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "example": "webpack-dev-server --progress --colors"
+  },
+  "dependencies": {
+    "react": "^15.4.2"
+  }
+}
