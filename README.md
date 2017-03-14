@@ -14,12 +14,15 @@ or
 
 See `example/` for detailed usage.
 
-    // src/MyComponent.jsx
-    import Group, Widget from 'react-windows';
-    
-    export default const () => (
-      <Widget title="🎃 Pumpkin">
-        <Group title="Scissors">
-          <button>Activate!</button>
-        </Group>
-      </Widget>
+```jsx
+// MyComponent.jsx
+import Group, Widget from 'react-windows';
+
+export default const () => (
+  <Widget title="🎃 Pumpkin">
+    <Group title="Scissors">
+      <button>Activate!</button>
+    </Group>
+  </Widget>
+);
+```
