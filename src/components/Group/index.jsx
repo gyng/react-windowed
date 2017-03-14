@@ -8,7 +8,7 @@ const Group = props =>
   </div>;
 
 Group.propTypes = {
-  children: React.PropTypes.element,
+  children: React.PropTypes.node,
   title: React.PropTypes.string,
   className: React.PropTypes.string,
 };

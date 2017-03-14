@@ -47,7 +47,7 @@ export default class Widget extends React.Component {
 
     const drawnWidget = this.state.open
       ? widget
-      : null;
+      : <div></div>;
 
     return (
       <Draggable
@@ -61,7 +61,7 @@ export default class Widget extends React.Component {
 }
 
 Widget.propTypes = {
-  children: React.PropTypes.element,
+  children: React.PropTypes.node,
   className: React.PropTypes.string,
   closable: React.PropTypes.bool,
   draggable: React.PropTypes.bool,
