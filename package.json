@@ -1,6 +1,6 @@
 {
   "name": "react-windowed",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Toy implementation of Windows-styled windows in React",
   "main": "index.js",
   "repository": "git@github.com:gyng/react-windowed.git",
@@ -8,8 +8,7 @@
   "license": "MIT",
   "scripts": {
     "build": "NODE_ENV=production webpack",
-    "example": "cd example && webpack-dev-server --progress --colors",
-    "lint": "eslint --ext .js,.jsx src test",
+    "lint": "eslint --ext .js,.jsx src test example",
     "test": "karma start --single-run",
     "test:watch": "karma start"
   },
@@ -48,6 +47,7 @@
     "postcss-reporter": "^3.0.0",
     "precss": "^1.4.0",
     "react-addons-test-utils": "^15.4.2",
+    "react-dom": "^15.4.2",
     "style-loader": "^0.13.2",
     "stylelint": "^7.9.0",
     "stylelint-config-standard": "^16.0.0",
@@ -56,7 +56,6 @@
   },
   "dependencies": {
     "react": "^15.4.2",
-    "react-dom": "^15.4.2",
     "react-draggable": "^2.2.3"
   }
 }
