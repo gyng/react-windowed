@@ -1,5 +1,7 @@
 # react-windows
 
+[![Build Status](https://travis-ci.org/gyng/react-windows.svg?branch=master)](https://travis-ci.org/gyng/react-windows)
+
 A toy implementation of Windows-styled windows in React. I use it for wrapping around development tools.
 
 ## Installation
