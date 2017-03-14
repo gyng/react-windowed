@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Widget from '../src/components/Widget';
-import Group from '../src/components/Group';
+import { Widget, Group } from 'react-windowed';
 
 const widget = (
   <Widget title="🎃&nbsp;&nbsp;Pumpkin">

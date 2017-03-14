@@ -18,7 +18,7 @@ See `example/` for detailed usage.
 
 ```jsx
 // Frobulator.jsx
-import Group, Widget from 'react-windowed';
+import { Group, Widget } from 'react-windowed';
 
 export default const () => (
   <Widget title="🎃 Pumpkin">
