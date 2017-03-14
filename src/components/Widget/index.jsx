@@ -47,7 +47,7 @@ export default class Widget extends React.Component {
 
     const drawnWidget = this.state.open
       ? widget
-      : <div></div>;
+      : <div />;
 
     return (
       <Draggable
