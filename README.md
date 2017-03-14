@@ -17,13 +17,13 @@ or
 See `example/` for detailed usage.
 
 ```jsx
-// MyComponent.jsx
+// Frobulator.jsx
 import Group, Widget from 'react-windows';
 
 export default const () => (
   <Widget title="🎃 Pumpkin">
     <Group title="Scissors">
-      <button>Activate!</button>
+      <button>Frobulate!</button>
     </Group>
   </Widget>
 );

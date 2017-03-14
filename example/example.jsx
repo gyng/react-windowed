@@ -4,11 +4,11 @@ import Widget from '../src/components/Widget';
 import Group from '../src/components/Group';
 
 const widget = (
-  <Widget title="🎃&nbsp;&nbsp;Demo widget">
-    <div>Hello,</div>
-    <Group title="World">
+  <Widget title="🎃&nbsp;&nbsp;Pumpkin">
+    <div>Hello, world!</div>
+    <Group title="Scissors">
       <input />
-      <button>Pull</button>
+      <button>Frobulate!</button>
     </Group>
   </Widget>
 );
