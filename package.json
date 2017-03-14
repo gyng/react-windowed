@@ -11,6 +11,7 @@
     "example": "cd example && webpack-dev-server --progress --colors",
     "gh-pages": "mkdir -p gh-pages && cd example && webpack && cp bundle.js ../gh-pages/bundle.js && cp index.html ../gh-pages/index.html && gh-pages -d ../gh-pages",
     "lint": "eslint --ext .js,.jsx src test example",
+    "npm-publish": "yarn build && npm publish",
     "test": "karma start --single-run",
     "test:watch": "karma start"
   },
