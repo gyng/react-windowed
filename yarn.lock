@@ -5118,9 +5118,9 @@ react-draggable@^2.2.3:
   dependencies:
     classnames "^2.2.5"
 
-react-windowed@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/react-windowed/-/react-windowed-0.0.8.tgz#90791f78dce9fe3722101bf8a0f24b6d7a16ddf3"
+react-windowed@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.yarnpkg.com/react-windowed/-/react-windowed-0.0.9.tgz#9dbc05e54ab74a6ec8040db7ced6825d4665d63b"
   dependencies:
     react "^15.4.2"
     react-draggable "^2.2.3"
