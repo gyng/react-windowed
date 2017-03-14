@@ -1,8 +1,8 @@
 {
   "name": "react-windowed",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "description": "Toy implementation of Windows-styled windows in React",
-  "main": "src/index.js",
+  "main": "index.js",
   "repository": "git@github.com:gyng/react-windowed.git",
   "author": "Ng Guoyou <ng.guoyou@gmail.com>",
   "license": "MIT",
